@@ -47,9 +47,9 @@ const About = () => {
                 {/*información estudios */}
                 Universidad de Buenos Aires
               </span>
-              <p className={styles.schoolJobsDescription}>
-                Diseño gráfico (2007 - 2012)
-              </p>
+            </p>
+            <p className={styles.schoolJobsDescription}>
+              Diseño gráfico (2007 - 2012)
             </p>
             <p className={styles.containerSchoolJobs}>
               <span>
@@ -82,9 +82,9 @@ const About = () => {
                 {/*información trabajo */}
                 Diseño de packaging e identidad
               </span>
-              <p className={styles.schoolJobsDescription}>
-                Más de 10 años de experiencia en el rubro
-              </p>
+            </p>
+            <p className={styles.schoolJobsDescription}>
+              Más de 10 años de experiencia en el rubro
             </p>
           </Col>
         </Row>

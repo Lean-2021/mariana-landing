@@ -20,7 +20,7 @@
     text-align: justify;
 }
 .containerSchoolJobs{   /*contenedor de estudios y trabajo*/
-    margin-top:30px;
+    margin-top:20px;
     font-family: 'Open Sans', sans-serif;
 }
 .schoolJobs{   /*titulo de estudio y trabajo*/
@@ -41,6 +41,7 @@
     font-size: 14px;
     color:#541F08;
     margin-left: 40px;
+    margin-top:-15px;
 }
 
 /* resoluciones pequeñas */
@@ -68,8 +69,12 @@
         font-weight: bold;
         vertical-align: middle;
     }
-    .image{
+    .image{  /* ancho imagen sobre mi*/
         width:96%;
+    }
+    .schoolJobsDescription{  /*descripcion de estudio y trabajo*/
+        text-align: center;
+        margin-left:0;
     }
 }
 
@@ -98,5 +103,9 @@
         color:#541F08;
         font-weight: bold;
         vertical-align: middle;
+    }
+    .schoolJobsDescription{  /*descripcion de estudio y trabajo*/
+        text-align: center;
+        margin-left:0;
     }
 }

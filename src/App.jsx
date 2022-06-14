@@ -10,14 +10,14 @@ import FormContact from "./Components/FormContact/FormContact";
 function App() {
 
   return (
-    <div>
+    <section>
       <Nav/> {/* componente Nav */}
       <Carousel/> {/*ejemplo - reemplazar por el componente sección Home-carousel */}
       <About/> {/*componente sección Sobre mi */}
       <Services/> {/*componente sección servicios */}
       <FormContact/> {/*componente sección Contacto */}
       <Footer/> {/*componente footer */}
-    </div>
+    </section>
   )
 }
 

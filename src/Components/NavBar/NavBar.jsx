@@ -1,19 +1,19 @@
-import React from "react";
+import React,{useState} from "react";
 import { Nav, Navbar, Container, Offcanvas } from "react-bootstrap";
 import logo from "../../../mock/assets/images/Logo.png";
 import instagram from "../../../mock/assets/images/instagram.svg";
 import behance from "../../../mock/assets/images/Be.svg";
 import linkedIn from "../../../mock/assets/images/linkedIn.svg";
 import { Link } from "react-scroll";
-import { useState } from "react";
 import "../NavBar/NavBar.css";
 
 const NavBar = () => {
   const expand = "lg"; //offcanvas expansion
   const [show, setShow] = useState(false); //mostrar - ocultar menu dispositivos mobiles
-
+  const handleClose =()=>setShow(false);  // ocultar menu
+  const handleOpen =()=>setShow(true);  // mostrar menu 
   return (
-    <>
+    <section>
       <Navbar
         key={expand}
         expand={expand}
@@ -24,7 +24,7 @@ const NavBar = () => {
         <Container fluid>
           <Navbar.Brand>
             {/*Logo web  */}
-            <Link  //efecto scroll logo
+            <Link //efecto scroll logo
               to="home"
               spy={true}
               smooth={true}
@@ -36,7 +36,7 @@ const NavBar = () => {
           </Navbar.Brand>
           <Navbar.Toggle //boton nav dispositivos mobiles
             aria-controls={`offcanvasNavbar-expand-${expand}`}
-            onClick={() => setShow(true)}  //mostrar menu mobil
+            onClick={handleOpen}  //mostrar menu mobil
           >
             <span>  {/*icono menu mobil */}
               <svg
@@ -57,12 +57,13 @@ const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Offcanvas //menu dispositivos mobiles
             show={show}
+            onHide={handleClose}
             id={`offcanvasNavbar-expand-${expand}`}
             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
             placement="start"
           >
             <Offcanvas.Header>
-              <span className="close-menu" onClick={() => setShow(false)}>{/* cerrar menu mobil */}
+              <span className="close-menu" onClick={handleClose}>{/* cerrar menu mobil */}
                 {/*boton cerrar menu dispositivoa mobiles */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +83,7 @@ const NavBar = () => {
                   smooth={true}
                   offset={-100}
                   duration={1500}
-                  onClick={() => setShow(false)} // cerrar menu mobil
+                  onClick={handleClose} // cerrar menu mobil
                 >
                   <img src={logo} alt="logo menu" className="logo-offcanvas" />
                 </Link>
@@ -97,7 +98,7 @@ const NavBar = () => {
                   offset={-100}
                   duration={1500}
                   className="nav-link"
-                  onClick={() => setShow(false)} // cerrar menu mobil
+                  onClick={handleClose} // cerrar menu mobil
                   style={{
                     textDecoration: "none",
                     fontSize: "16px",
@@ -127,7 +128,7 @@ const NavBar = () => {
                   offset={-100}
                   duration={1500}
                   className="nav-link"
-                  onClick={() => setShow(false)} // cerrar menu mobil
+                  onClick={handleClose} // cerrar menu mobil
                   style={{
                     textDecoration: "none",
                     fontSize: "16px",
@@ -157,7 +158,7 @@ const NavBar = () => {
                   offset={-100}
                   duration={1500}
                   className="nav-link"
-                  onClick={() => setShow(false)} // cerrar menu mobil
+                  onClick={handleClose} // cerrar menu mobil
                   style={{
                     textDecoration: "none",
                     fontSize: "16px",
@@ -190,7 +191,7 @@ const NavBar = () => {
                   offset={-100}
                   duration={1500}
                   className="nav-link"
-                  onClick={() => setShow(false)} // cerrar menu mobil
+                  onClick={handleClose} // cerrar menu mobil
                   style={{
                     textDecoration: "none",
                     fontSize: "16px",
@@ -221,7 +222,7 @@ const NavBar = () => {
                         href="https://www.instagram.com/beauty_bags_packaging/?r=nametag"
                         target="_blank"
                         rel="noreferrer"
-                        onClick={() => setShow(false)}  //ocultar menu
+                        onClick={handleClose}  //ocultar menu
                       >
                         <img src={instagram} alt="instagram" />
                       </a>
@@ -232,7 +233,7 @@ const NavBar = () => {
                       href="https://www.behance.net/"
                       target="_blank"
                       rel="noreferrer"
-                      onClick={() => setShow(false)} //ocultar menu
+                      onClick={handleClose} //ocultar menu
                     >
                       <img src={behance} alt="Behance" />
                     </a>
@@ -242,7 +243,7 @@ const NavBar = () => {
                       href="https://ar.linkedin.com/"
                       target="_blank"
                       rel="noreferrer"
-                      onClick={() => setShow(false)}  //ocultar menu
+                      onClick={handleClose}  //ocultar menu
                     >
                       <img src={linkedIn} alt="linkedIn" />
                     </a>
@@ -253,7 +254,7 @@ const NavBar = () => {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-    </>
+    </section>
   );
 };
 

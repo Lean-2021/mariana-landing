@@ -2,9 +2,10 @@
     margin-top:200px;
     margin-bottom: 160px;
     position: relative;
- }
- 
- .form-design{  /*estilos formulario -fondo*/
+}
+
+.form-design{  /*estilos formulario -fondo*/
+    filter:drop-shadow(0 8px 24px #7090B015);
     background-color:#F9E8EB;
     height: 529px;
     margin-top: 50px;

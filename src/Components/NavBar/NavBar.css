@@ -89,10 +89,10 @@
   /* resoluciones pequeñas */
   @media screen and (max-width:520px){
     .navbar-logo{  /*tamaño de logo en mobil*/
-      width: 150px;  
+      width: 141px;  
     }
     .logo-offcanvas{  /*tamaño de logo en menu mobil*/
-      width:150px;
+      width:141px;
     }
     .menu-icon-nav{  /*tamaño de icono nav en mobiles pequeños*/
       width:25px;

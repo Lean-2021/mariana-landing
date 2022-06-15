@@ -28,7 +28,7 @@ const NavBar = () => {
               to="home"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-150}
               duration={1500}
             >
               <img src={logo} alt="logo web" className="navbar-logo" />
@@ -81,7 +81,7 @@ const NavBar = () => {
                   to="home"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-150}
                   duration={1500}
                   onClick={handleClose} // cerrar menu mobil
                 >
@@ -95,7 +95,7 @@ const NavBar = () => {
                   to="home"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-150}
                   duration={1500}
                   className="nav-link"
                   onClick={handleClose} // cerrar menu mobil

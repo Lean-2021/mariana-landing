@@ -1,14 +1,16 @@
 .containerServices{   /*contenedor seccion servicios*/
-    margin-top: 50px;
+    margin-top: 80px;
+    text-align: start;
 }
 .titleServices{   /*titulo de servicios*/
     font-size: 64px;
     margin-left: 30px;
     color:#E59C9C;
     font-family: 'Montserrat', sans-serif;
+    text-align: start;
 }
 .services{       /*contenido servicios*/
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .products{   /*borde seccion servicios*/
     border-right: 4px dotted #E59C9C;
@@ -53,6 +55,7 @@
         text-align: center;
         margin-left: auto;
         margin-bottom: 80px;
+        text-align: center;
     }
     .productsFinal{  /*producto final 3 columna*/
         padding-left: 0;
@@ -87,6 +90,7 @@
         margin-left: auto;
         margin-left: -15px;
         margin-bottom: 80px;
+        text-align: center;
     }
     .productsFinal{ /*producto final 3 columna*/
         padding-left: 0;

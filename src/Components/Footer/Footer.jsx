@@ -105,8 +105,7 @@ const Footer = () => {
       {/**sección copyright */}
       <section className={styles.footerDesign}>
         <p className={styles.textDesign}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          eget posuere magna, id cursus urna. 2022 © All Rights Reserved
+          Diseñado por  : Juan Pablo Ursic , Maquetado por : Leandro Wagner y Matias Aramayo. Todos los Derechos Reservados ©
         </p>
       </section>
     </section>

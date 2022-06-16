@@ -89,7 +89,7 @@ input::placeholder {  /*color input placeholder*/
 }
 /* Resoluciones medianas - grandes */
 
-@media screen and (min-width:768px) and (max-width:990px){
+@media screen and (min-width:768px) and (max-width:991px){
     .form-container{  /*contenedor formulario*/
         margin-top:70px;
         text-align: center;
@@ -118,14 +118,14 @@ input::placeholder {  /*color input placeholder*/
     }
     .btn-click-form{  /*mover el boton hacia arriba cuando hay mensajes de error en el formulario */
         position:absolute;
-        left:13%;
-        width:74%;
-        bottom:30px;
+        left:10%;
+        width:80%;
+        bottom:10px;
         margin-top: 20px;
         margin-bottom: -10px;
     }
     .btn-icon{  /*icono del boton*/
-        margin-bottom: 1px;
+        margin-bottom: 3px;
     }
     .title-form{
         margin-bottom: 70px;
@@ -164,11 +164,11 @@ input::placeholder {  /*color input placeholder*/
     }
     .btn-click-form{  /*mover el boton hacia arriba cuando hay mensajes de error en el formulario */
         position:absolute;
-        left:17%;
-        width:66%;
-        bottom:30px;
+        left:7.9%;
+        width:84.5%;
+        bottom:-10px;
         margin-top: 20px;
-        margin-bottom: -10px;
+        /* margin-bottom: -10px; */
     }
     .btn-icon{  /*icono del boton*/
         margin-bottom: 2px;

@@ -86,7 +86,7 @@
         margin:auto;
         margin-top:30px;
         text-align: center;
-        font-size: 50px;
+        font-size: 3.1rem;
         max-width: 420px;
     }
     .carousel-description{  /*descripcion carousel*/
@@ -109,10 +109,9 @@
     }
     .carousel-title{  /*titulo carousel*/
         margin:auto;
-        height:200px;
         margin-top:30px;
         text-align: center;
-        font-size: 40px;
+        font-size: 2rem;
         max-width: 300px;
     }
     .carousel-description{  /*descripcion carousel*/

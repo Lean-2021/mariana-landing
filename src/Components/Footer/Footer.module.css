@@ -59,7 +59,7 @@
 }
 
 /* resoluciones medianas */
-@media screen and (min-width:768px) and (max-width:990px){
+@media screen and (min-width:768px) and (max-width:991px){
     .socialLinks{  /*links redes sociales*/
         margin-left: 26%;
         margin-top: 50px;
@@ -87,7 +87,7 @@
     .textDesign{  /*texto design footer copyright*/
         width: 70%;
         margin: auto;   
-        padding-top: 20px;  
+        padding-top: 30px;  
     }
     .footerDesign{
         height: 96px;
@@ -115,5 +115,14 @@
     }
     .links{
         max-width: 90%;
+    }
+}
+/* resoluciones muy pequeñas */
+
+@media screen and (max-width:280px){
+    .navFooter{  /*links footer nav*/
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
     }
 }

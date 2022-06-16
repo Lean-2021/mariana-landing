@@ -32,10 +32,11 @@
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     max-width: 85%;
+    text-align: left;
 }
 
 /* resoluciones medianas */
-@media screen and (min-width:520px) and (max-width:990px){
+@media screen and (min-width:520px) and (max-width:991px){
     .products{   /* seccion productos*/
         margin-bottom: 40px;
         border-right: none;
@@ -46,7 +47,7 @@
         text-align: center;
     }
     .descriptionProducts{   /*Descripcion productos*/
-        text-align: center;
+        text-align: left;
         max-width: 85%;
         margin-left: auto;
         margin-right: auto;
@@ -79,7 +80,7 @@
         text-align: center;
     }
     .descriptionProducts{   /*Descripcion productos*/
-        text-align: center;
+        text-align: left;
         max-width: 85%;
         margin-left: auto;
         margin-right: auto;

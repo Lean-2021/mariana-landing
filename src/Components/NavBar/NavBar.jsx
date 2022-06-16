@@ -18,7 +18,7 @@ const NavBar = () => {
         key={expand}
         expand={expand}
         className="mb-3"
-        style={{ backgroundColor: "#f5f5f5" }}
+        style={{ backgroundColor: "#FEF8F9" }}
         fixed="top"
       >
         <Container fluid>

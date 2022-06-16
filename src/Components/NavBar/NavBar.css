@@ -66,6 +66,7 @@
     .navbar-toggler{  /*boton menu */
       position:absolute;
       box-shadow: none !important;
+      border:transparent;
     }
     .navbar-brand{
       margin-left:90px;

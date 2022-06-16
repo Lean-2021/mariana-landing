@@ -14,8 +14,7 @@ function App() {
     <section className="text-center">
       {/* SEO del sitio web */}
       <Helmet>
-          <title>Mariana Battistella</title>
-          <link rel="icon" type="image/svg+xml" href="mock/assets/images/favicon.svg" />
+          <title>Mariana Battistella</title>     
           <meta name="description" content="Mi nombre es mariana battistela, soy diseñadora gráfica y me dedico al diseño de embalajes y bolsas para diversos productos" />
           <meta name="keywords" content="diseño , packaging , kraft , totebags "/>
       </Helmet>

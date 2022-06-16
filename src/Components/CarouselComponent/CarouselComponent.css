@@ -61,7 +61,8 @@
         margin-top:30px;
         text-align: center;
         font-size: 64px;
-        max-width: 420px;
+        max-width: 520px;
+        height: 230px;
     }
     .carousel-description{  /*descripcion carousel*/
         display: none;
@@ -88,6 +89,7 @@
         text-align: center;
         font-size: 3.1rem;
         max-width: 420px;
+        height:180px;
     }
     .carousel-description{  /*descripcion carousel*/
         display: none;
@@ -113,6 +115,7 @@
         text-align: center;
         font-size: 2rem;
         max-width: 300px;
+        height: 115px;
     }
     .carousel-description{  /*descripcion carousel*/
         display: none;
